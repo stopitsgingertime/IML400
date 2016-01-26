@@ -55,9 +55,9 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #bdf6f4;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 Courier, serif;
   color:#727272;
   font-weight:400;
 }
@@ -133,9 +133,42 @@ pre {
   overflow-x: auto;
 }
 
+nav {
+
+  display: block;
+  margin: 0px auto;
+
+margin-bottom: 20px;
+text-align: center;
+font-size: 120%;
+
+
+
+}
+
+nav p {
+background-color: #f0d6f6;
+border-radius: 10px;
+
+}
+
+nav a {
+color: #6cb8b5;
+background-color: #f0d6f6;
+border-radius: 10px;
+padding: 8px;
+
+}
+
 table {
   width:100%;
   border-collapse:collapse;
+}
+
+#butt {
+  display: block;
+
+margin: 0px auto;
 }
 
 th, td {
