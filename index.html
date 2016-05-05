@@ -13,14 +13,14 @@
     <![endif]-->
   </head>
 
-
+<script type="text/javascript" src="scripts/lib/jquery-2.2.0.min.js"></script>
  <script>
 
 
-jQuery('#wrapper').hide()
+jQuery('#about').hide()
 $(document).ready(function(){
     $("#me").click(function(){
-        $("#wrapper").toggle();
+        $("#about").toggle();
     });
 });
         </script>
@@ -29,9 +29,9 @@ $(document).ready(function(){
 
   <body>
 
-<div id="me">CLICK ME</div>
 
-    <div id="wrapper"style="display:none;">
+
+    <div id="wrapper">
       <header>
         <h1>allegra's IML zone</h1>
         <p>where the magic happens</p>
@@ -50,8 +50,20 @@ $(document).ready(function(){
 
 
       </header>
-      <section>
+
+ <div id="me" style="float:right; font-size:25px; font-color: red;">ABOUT</div>
+
+      <section id="about"style="display:none;">
+
+
+
         <h3>
+
+
+         
+
+          <div >
+
 <a id="who" class="anchor" href="#who" aria-hidden="true"><span class="octicon octicon-link"></span></a>who?</h3>
 
 <p>i'm allegra. sophomore MA+P major from chicago, music aficionado, internet wanderer.</p>
@@ -74,7 +86,7 @@ $(document).ready(function(){
 <p>apparently, a butterfly.</p>
 <img id="butt" src="http://www.spiritanimal.info/wp-content/uploads/questionnaire_images/butterfly-totem-300.jpg">
 
-
+</div>
 
 
       </section>
