@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listen And Love</title>
+        <link rel="stylesheet" href="css/main.css"/>
+        <script type="text/javascript" src="scripts/lib/jquery-2.2.0.min.js"></script>
+    </head>
+    <body><script type='text/javascript' id="__bs_script__">//<![CDATA[
+   
+//]]></script>
+
+<div id="page">
+
+<div id="top">
+<h1> LISTEN &amp; LOVE</h1>
+<p><em> a tiny site by allegra</em></p></div>
+
+
+        <div class="module">
+
+
+<h2>ANOHNI - 4 Degrees</h2>
+<p> ANOHNI's debut album <i>HOPELESSNESS</i> is a critically lauded work of socially-conscious electropop. "4 Degrees," a standout track, details the consequences of ecological destruction against a catchy beat co-produced by Hudson Mohawke and Daniel Lopatin.</p>
+
+            
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A61ZYkv9MEQZ25jVaIavQOM" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+
+ <div class="module">
+
+
+    <h2>Weezer - California Kids</h2>
+<p> Weezer's third self-titled album <i>The White Album</i> is a return to form of their classic, sun-soaked power-pop stylings. Lead singer Rivers Cuomo manages to evoke a hearty helping of emotion even when spending a dozen songs just singing about his wife and kids. "California Kids" is an anthem for beachgoers that should be blasted at full volume.</p>
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0UbS4oWIo2nUXeTxsvFaN1" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+
+ <div class="module">
+
+
+    <h2>MUNA - So Special</h2>
+<p> LA trio MUNA was born out of friendships made at USC Thornton School of Music, and now they're taking their anthems of empowerment worldwide with their debut EP <i>Loudspeaker</i>. Synths and guitars ring out over upbeat rhythms that bring Katie Gavin's intense vocals to new heights.</p>
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6DeV0zNRKlcl3SGH4TW75O" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+<div class="module">
+
+
+    <h2>You Won't - 1-4-5</h2>
+<p> Boston folk-rock duo You Won't return with their sophomore album, the irreverent and inventive <i>Revolutionaries.</i> At times reminiscent of the Mountain Goats and They Might Be Giants, the jangly melodies and creative percussion make the album a wholesome and at times, deeply emotional listen. "1-4-5" delights in its bounding verses and heartfelt delivery.</p>
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0OOiM8HomGByVtXCjOH8DA" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+<div class="module">
+
+
+    <h2>Soccer Team - Best Employed New Beau</h2>
+<p> DC band Soccer Team was formed by a cadre of Dischord Record employees in the early 2000s, real grown-ups who've been performing regularly in their off-hours since then. Their 2015 release <i>Real Lessons in Cynicism</i> appeared 9 years after their previous (debut) album, but it keeps the 2006 vibe alive with its emo-pop clarity and infectious instrumentation. </p>
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A7aBEEBlmcqQKUmDdtdMlUi" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+<div class="module">
+
+
+    <h2>Mocky - Exception To The Rule</h2>
+<p> Prolific producer, bandleader, and solo artist Mocky has put out the latest in his Moxtape series, the aptly named <i>Moxtape III</i>. Coming on the heels of last year's full album release <i>Key Change</i> this collection finds Mocky letting loose with his carefree style of jazz-inflected experimentation. </p>
+        <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A1nsXSpsJLYYVv1K35yyAwm" width="300" height="100" frameborder="0" allowtransparency="true"></iframe>
+   
+       
+
+    <div class="yes">another one!</div>
+    <div class="results"></div>
+</div>
+
+</div>
+    
+        <script type="text/javascript" src="scripts/main.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            console.log("ready");
+
+            $(".yes").click(function() {
+                console.log("yes");
+                console.log("this", $(this));
+               var thisSrc = $(this).parent().find(".spotify").attr("src");
+               var thisResults = $(this).parent().find(".results");
+               console.log("thisResults", thisResults);
+                appendItem(thisSrc, thisResults);
+
+                // getParameterByName(name, url)
+
+            });
+
+            $(".no").click(function() {
+                console.log("no");
+            });
+        });
+        </script> 
+    </body>
+</html>

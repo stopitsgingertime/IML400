@@ -1,0 +1,55 @@
+body {
+	
+	background: #9ed6e2;
+	font-family: 'Helvetica Neue', 'HelveticaNeue', Helvetica, sans-serif;
+}
+
+.results {
+	margin-left: 200px;
+}
+
+
+#page {
+
+	width: 400px;
+	display: block;
+	margin: 0px auto;
+}
+
+#page p {
+
+	line-height: 1.2em;
+}
+
+.yes {
+	width: 100px;
+	background: white;
+	padding: 5px;
+	border-radius: 3px;
+	float: left;
+}
+
+.no {
+width: 40px;
+	background: white;
+	padding: 5px;
+	border-radius: 3px;
+	margin-left:;
+	float: left;
+}
+
+.module {
+
+	margin-top: 30px;
+	padding-bottom: 60px;
+	border-bottom-width: 10px;
+	border-color: white;
+	border-bottom-style: solid;
+}
+
+
+#top {
+
+	border-bottom-style: dotted;
+	border-bottom-color: white;
+}
